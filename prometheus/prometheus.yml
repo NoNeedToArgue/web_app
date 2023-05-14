@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: webapp
+    scrape_interval: 5s
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['web_app1:80']
