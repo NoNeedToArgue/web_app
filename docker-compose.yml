@@ -25,3 +25,11 @@ services:
     ports:
       - 3000:3000
     restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    ports:
+      - 15672:15672
+    restart: unless-stopped
