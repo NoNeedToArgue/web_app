@@ -1,2 +1,3 @@
 * Prometheus
 * Grafana
+* RabbitMQ
