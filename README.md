@@ -1,3 +1,4 @@
 * Prometheus
 * Grafana
 * RabbitMQ
+* PostgreSQL
