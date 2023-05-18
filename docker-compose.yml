@@ -33,3 +33,11 @@ services:
     ports:
       - 15672:15672
     restart: unless-stopped
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: postgrespass
+    ports:
+      - 5432:5432
