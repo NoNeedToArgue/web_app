@@ -12,7 +12,7 @@ namespace Lib
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=postgres;Port=5442;Database=usersdb;Username=postgres;Password=postgres");
+            optionsBuilder.UseNpgsql("Host=postgres;Port=5432;Database=usersdb;Username=postgres;Password=postgrespass");
         }
     }
 }
