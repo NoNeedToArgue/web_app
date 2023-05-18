@@ -1,9 +1,9 @@
 services:
 
   web_app1:
-    build: ./web_app1
-    image: web_app1
-    container_name: web_app1
+    build: ./web_app
+    image: web_app
+    container_name: web_app
     ports:
       - 8000:80
     restart: unless-stopped
