@@ -2,3 +2,4 @@
 * Grafana
 * RabbitMQ
 * PostgreSQL
+* Redis
