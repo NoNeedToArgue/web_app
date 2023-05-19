@@ -1,6 +1,6 @@
 services:
 
-  web_app1:
+  web_app:
     build: ./web_app
     image: web_app
     container_name: web_app
@@ -41,3 +41,11 @@ services:
       POSTGRES_PASSWORD: postgrespass
     ports:
       - 5432:5432
+    restart: unless-stopped
+
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - 6379:6379
+    restart: unless-stopped
